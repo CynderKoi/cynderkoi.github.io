@@ -3,45 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Posicionamiento -->
+  <meta name="description" content="Portafolio personal de Cynder Koi, proyectos y redes.">
+  <meta name="author" content="Cynder Koi">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="../css/base.css" >
+
   <title>Cynder Koi Oficial</title>
 
   <!-- Iconos Lucide -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <style>
-    /* ===== RESET ===== */
-    * {
-      margin: 0; padding: 0;
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
 
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom right,#0f172a,#4c1d95,#0f172a);
-      color: white;
-    }
+<body>
 
-    section {
-      padding: 100px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
+  <button id="menu-toggle" class="menu-toggle">☰</button>
 
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      padding: 18px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background: rgba(0,0,0,0.6);
-      backdrop-filter: blur(8px);
-      z-index: 999;
-    }
+  <div class="sidebar" id="sidebar"></div>
 
-    nav a {
+  <div class="content">
+    <!-- contenido -->
+  </div>
+
+  <script src="../js/menu.js"></script>
+
+  <!-- Inicio -->
+  <section id="home" class="hero">
+    <div>
+      <h1 class="gradient-text" style="font-size: 64px;">Vtuber Multifacético</h1>
+      <p style="font-size: 22px; color: #ccc;">
+        Artista Digital • Manager para Creadores de Contenido • Diseñador de avatares • Clipero • Marketing </p>
+      <p style="font-size: 14px; color: #ccc;">
+        Esta pagina aun no esta terminada y esta en constante cambio, muchas gracias! </p>
+
+      <a href="Redes.html" class="btn">Mis Proyectos</a>
+    </div>
+  </section>
+
+  <!-- Pie de pagina -->
+  <footer>
+    © 2025 Cynder Koi. Creador Multi-Trabajos.
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
       margin-left: 20px;
       color: #ddd;
       text-decoration: none;
@@ -226,4 +234,5 @@
   </script>
 </body>
 </html>
+
 
